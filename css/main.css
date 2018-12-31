@@ -1,14 +1,13 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: black;
-    color:white;
+    color:black;
     overflow:hidden;
 }
 
 .container{
     display:flex;
     flex-direction: column;
-    background: url('../img/pexels-photo-59884.jpeg') no-repeat center center/cover;
+    background: url('../img/background.jpg') no-repeat center center/cover;
     height:100vh;
     text-align:center;
     justify-content: center;
@@ -24,18 +23,18 @@ body{
     background-clip:text;
     -webkit-background-clip: text;
     color: transparent;
-    animation:motionBackground 40s linear infinite;
-    -webkit-animation: motionBackground 40s linear infinite;
+    animation:motionBackground 7s linear infinite;
+    -webkit-animation: motionBackground 7s linear infinite;
 }
 /* 
  * Background text Animation
  */
 @keyframes motionBackground{
     0%{
-        background-position: 0% 30%;
+        background-position: 0% 15%;
     }
 
     100% {
-        background-position: 100% 50%;
+        background-position: 100% 95%;
     }
 }
