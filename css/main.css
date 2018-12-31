@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    color:white;
+    overflow:hidden;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    background: url('../img/pexels-photo-59884.jpeg') no-repeat center center/cover;
+    height:100vh;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+}
+
+.animated{
+    font-family: Charm , 'cursive';
+    font-size: 3rem;
+    margin:0;
+    padding:0;
+    background: url('../img/text-animation.png') no-repeat ;
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation:motionBackground 40s linear infinite;
+    -webkit-animation: motionBackground 40s linear infinite;
+}
+/* 
+ * Background text Animation
+ */
+@keyframes motionBackground{
+    0%{
+        background-position: 0% 30%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
