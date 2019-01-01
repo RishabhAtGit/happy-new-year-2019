@@ -10,9 +10,8 @@ body{
     flex-direction: column;
     background: url('../img/background.jpg') no-repeat center center/cover;
     height:100vh;
-    padding-top:60px;
     text-align:center;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 .quote{
@@ -50,13 +49,3 @@ body{
         background-position: 100% 95%;
     }
 }
-
-/*  
- *  Responsive code for desktop screens
- */
-
- @media screen and (min-width:400px){
-     .container{
-         padding-top: 130px;
-     }
- }
