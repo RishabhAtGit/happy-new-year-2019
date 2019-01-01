@@ -50,6 +50,9 @@ body{
         background-position: 100% 95%;
     }
 }
+.copyright{
+    margin-top:100px;
+}
 
 /*  
  *  Responsive code for desktop screens
