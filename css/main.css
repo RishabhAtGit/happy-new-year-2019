@@ -9,11 +9,22 @@ body{
     flex-direction: column;
     background: url('../img/background.jpg') no-repeat center center/cover;
     height:100vh;
+    padding-top:60px;
     text-align:center;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
-
+.quote{
+    font-family: Charm, 'cursive';
+    font-size:18px;
+    width:280px;
+    margin:10px;
+    padding:10px;
+    -webkit-box-shadow: 10px 10px 26px 16px rgba(33,133,48,0.26);
+    -moz-box-shadow: 10px 10px 26px 16px rgba(33,133,48,0.26);
+    box-shadow: 10px 10px 26px 16px rgba(33,133,48,0.26);
+    border-radius: 10px;
+}
 .animated{
     font-family: Charm , 'cursive';
     font-size: 3rem;
