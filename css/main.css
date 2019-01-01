@@ -49,3 +49,30 @@ body{
         background-position: 100% 95%;
     }
 }
+<<<<<<< HEAD
+||||||| merged common ancestors
+
+/*  
+ *  Responsive code for desktop screens
+ */
+
+ @media screen and (min-width:400px){
+     .container{
+         padding-top: 130px;
+     }
+ }
+=======
+.copyright{
+    margin-top:100px;
+}
+
+/*  
+ *  Responsive code for desktop screens
+ */
+
+ @media screen and (min-width:400px){
+     .container{
+         padding-top: 130px;
+     }
+ }
+>>>>>>> a6606fe9ef6eb47a8eb19d60f4eb9f3df0dc45da
