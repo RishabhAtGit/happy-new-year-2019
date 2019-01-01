@@ -50,3 +50,13 @@ body{
         background-position: 100% 95%;
     }
 }
+
+/*  
+ *  Responsive code for desktop screens
+ */
+
+ @media screen and (min-width:400px){
+     .container{
+         padding-top: 130px;
+     }
+ }
